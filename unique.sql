@@ -24,6 +24,6 @@ SELECT brand_name, MAX(weight), MIN(weight) FROM in_stock NATURAL JOIN product N
 SELECT NAME, address FROM customer NATURAL JOIN bought WHERE UPC = 430933048909;
 
 /*QUERY # 4, get the name of the product, the address of the store, and the name of the manager for a specific product at a specific state*/
-SELECT NAME,address,manager FROM product NATURAL JOIN in_stock NATURAL JOIN store WHERE state='Georgia'  AND NAME='sed pede.';
+SELECT store_id,address,OPEN,close FROM product NATURAL JOIN in_stock NATURAL JOIN store WHERE state='Georgia'  AND NAME='sed pede.';
 
 /*QUERY # 5*/
