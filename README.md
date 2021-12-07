@@ -1,5 +1,12 @@
 # Boutique Candle Company - DB Final Project
 
+## Team Name: Project Tsukuyomi
+
+## Team Members:
+* Saad Mahmood
+* Saadh Ahmed
+* Abdullah Shehata
+
 ## Description
 
 This is a repo for our final project. It contains a mock database set up for a boutique candle company.
