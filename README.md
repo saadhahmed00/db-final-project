@@ -9,24 +9,24 @@ This is a repo for our final project. It contains a mock database set up for a b
 * MariaDB or MySQL
 * HeidiSQL
 
-### Instructions
+### Files
 
-* Download the "client" folder. Most importantly, make sure to have the pubspec.yaml file, lib folder, and android folder.
+* DBProject.sql - This is the main file that contains the DLL commands and the INSERT commands to input our mock data. We decided to combine the DLL commands and the generated data into a single SQL file for the sake of simplicity. Running this .sql file will create the necessary tables and populate them with all our data.
+* unique.sql - This file contains our 5 interesting SQL queries
+* ER diagram.pdf - This is the PDF of our ER Diagram
 
-### Executing program
+### Instructions on running the project
 
-* After extracting on your device, locate your terminal and go to the path where the file is saved. Make sure you are in the "client" directory.
-* Save the pubspec.yaml file to first download all the dependencies
-* Select and turn on your Android Emulator
-* In the terminal type
-   ```
-   flutter run --no-sound-null-safety
-   ```
-* The program should execute
+* After extracting on your device, open a session on HeidiSQL (or you preferred admin tool) with network type MariaDB or MySQL.
+* Click on "file" in the upper right corner and select "Load SQL file".
+* Select DBProject.sql from your file manager. This will open the SQL file for you.
+* On the top bar select the run icon. Make sure it is set to "send queries one by one".
+* After running, you should be able to see a database named "DBProject" in the left panel. Clicking the dropdown will show all the created tables. These will already be populated with the data.
+* You can open unique.sql in a separate text editor, and copy and paste each individual query to the bottom of the DBProject.sql. Highlighting that added line and right clicking will allow you to run each indidivual query.
 
 ## IMPORTANT - Demo Videos 
-* Android app demo: 
-https://youtu.be/rLfmJ-lKvTU
+* Group project Demo Video: 
+https://youtu.be/TbpEWXxv4js
 
 
 
