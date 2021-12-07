@@ -1,7 +1,5 @@
-DROP DATABASE `test`;
-
-CREATE DATABASE IF NOT EXISTS `test`;
-USE `test`;
+CREATE DATABASE IF NOT EXISTS `DBProject`;
+USE `DBProject`;
 
 CREATE TABLE IF NOT EXISTS `store` (
   `store_id` int(20) unsigned NOT NULL AUTO_INCREMENT,
