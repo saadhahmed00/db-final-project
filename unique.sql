@@ -1,17 +1,4 @@
 								/*5 UNIQUE QUERIES*/
-/* to display tables for visuals when needed*/								
-select * from bought;
-select * from brands;
-select * from customer;
-select * from in_stock;
-select * from orders;
-select * from owns;
-select * from produces;
-select * from product;
-select * from sells;
-select * from store;
-select * from vendor;
-select * from visits;
 
 /*QUERY # 1, project store_id of our top 3 most visited stores*/
 
