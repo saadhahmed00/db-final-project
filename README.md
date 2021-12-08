@@ -21,6 +21,7 @@ This is a repo for our final project. It contains a mock database set up for a b
 * DBProject.sql - This is the main file that contains the DLL commands and the INSERT commands to input our mock data. We decided to combine the DLL commands and the generated data into a single SQL file for the sake of simplicity. Running this .sql file will create the necessary tables and populate them with all our data.
 * unique.sql - This file contains our 5 interesting SQL queries
 * ER diagram.pdf - This is the PDF of our ER Diagram
+* Data_generation_info.pdf - This PDF is a small write up on how the data for this project was generated.
 
 ### Instructions on running the project
 
